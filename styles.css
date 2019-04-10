@@ -1,0 +1,112 @@
+/* 
+   Big J's Deep Dish Pizza style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit D, Skills Review
+ */
+
+/* reset styles */
+article, body, div, footer, header, h1, h2, h3, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* body and page container */
+.container {
+   max-width: 640px;
+   margin: 0 auto;
+   background-color: black;
+   text-align: center;
+   position: relative;
+   top: 11em;
+}
+
+/* headings */
+header {
+   width: 100%;
+   max-width: 640px;
+   background-color: black;
+   position: fixed;
+   top: 0;
+   /* z-index: -1; */
+}
+header div {
+   width: 70%;
+   margin: 0 auto 0.6em;
+   border: 3px solid red;
+   color: white;
+}
+header p {
+   border: 3px solid black;
+   padding: 6px;
+   color: black;
+   background-color: white;
+}
+header p.established {
+   width: 25%;
+   float: left;
+}
+header p.award {
+   width: 25%;
+   float: right;
+}
+header p.options {
+   width: 25%;
+   margin: 0 auto;
+}
+header p.phone {
+   width: 50%;
+   border: 3px solid red;
+   margin: 0.4em auto;
+   color: white;
+   background-color: black;
+   clear: both;
+}
+header p.pointright {
+   position: absolute;
+   top: 0.4em;
+   left: 0.4em;
+   color: red;
+   background-color: black;
+}
+header p.pointleft {
+   position: absolute;
+   top: 0.4em;
+   right: 0.4em;
+   color: red;
+   background-color: black;
+}
+
+/* main content */
+article {
+   width: 65%;
+   margin: 0 auto;
+   padding: 5em 1em 1em;
+   color: black;
+   background-color: white;
+   text-align: left;
+}
+h3 {
+   margin: 1em 0 0.4em;
+   color: red;
+}
+article p {
+   margin-bottom: 0.5em;
+}
+article p.myo {
+   margin-left: 1em;
+}
+article p.list {
+   margin-left: 2em;
+}
+
+/* footer section */
+footer {
+   border: 3px solid black;
+   padding: 0.5em;
+   background-color: white;
+   color: black;
+}
